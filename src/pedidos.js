@@ -1,4 +1,4 @@
-import { lerLocalStorage, desenharProdutoNoCarrinhoSimples } from "./utilidades";
+import { lerLocalStorage, desenharProdutoNoCarrinhoSimples } from "./utilidades.js";
 
 function criarPedidoHistorico(pedidoComData){
     const elementoPedido = `

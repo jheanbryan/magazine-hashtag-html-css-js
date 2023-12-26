@@ -9,7 +9,7 @@ form > section{
     background-color: #E44D26;
     flex: 1;
     padding: 10px;
-    height: 80vh;
+    height: auto;
     color: white;
 }
 p{

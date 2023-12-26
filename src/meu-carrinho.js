@@ -1,4 +1,4 @@
-import { catalogo, salvarLocalStorage, lerLocalStorage } from "./utilidades";
+import { catalogo, salvarLocalStorage, lerLocalStorage } from "./utilidades.js";
 
 const idsProdutoCarrinhoComQuantidade = lerLocalStorage('carrinho') ?? {};
 
