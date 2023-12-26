@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hashtag Magazaine</title>
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+  <body>
+    <section class="carrinho" id="carrinho">
+      <section class="menu-carrinho">
+        <div>
+          <img src="assets/icons/cart-shopping-solid.svg" alt="" class="icon">
+        </div>
+        <div id="btnFecharCarrinho">
+          <img src="assets/icons/xmark-solid.svg" alt="" class="icon">
+        </div>
+      </section>
+
+      <section id="produtos-carrinho"></section>
+
+      <span id="preco-total"></span>
+      <button class="finalizar-compra" id="btnFinalizarCompra">Finalizar Compra</button>
+    </section>
+
+    <header>
+      <nav>
+        <div class="container-logo">
+          <a href="/">
+            <img src="assets/logo/hashtag.svg" alt="Logo da Hashtag Magazine">
+          </a>
+        </div>
+      
+        <ul class="itens-menu">
+          <li>
+              <a href="./pages/pedidos.html">
+                <img src="assets/icons/user-solid.svg" alt="" class="icon">
+              </a>
+          </li>
+          
+          <li id="btnAbrirCarrinho">
+            <img src="assets/icons/cart-shopping-solid.svg" alt="" class="icon">
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+      <main>
+        <section id="filtros">
+          <div>
+            <input id="exibir-todos" type="radio" name="filtro" class="input" checked>
+            <label for="exibir-todos" class="label">Tudo</label>
+
+            <input id="exibir-cpus" type="radio" name="filtro" class="input">
+            <label for="exibir-cpus" class="label cpu">CPUS</label>
+
+            <input id="exibir-gpus" type="radio" name="filtro" class="input">
+            <label for="exibir-gpus" class="label gpu">GPUS</label>
+          </div>
+        </section>
+ 
+        <section id="container-produto"></section>
+      </main>
+      
+      <script defer type="module" src="./src/main.js"></script>
+    </body>
+</html>

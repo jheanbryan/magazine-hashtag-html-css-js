@@ -1,0 +1,59 @@
+form{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+form > section{
+    background-color: #E44D26;
+    flex: 1;
+    padding: 10px;
+    height: 80vh;
+    color: white;
+}
+p{
+    text-align: center;
+}
+.div-label-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 5px;
+}
+.div-label-input input{
+    padding-left: 5px;
+}
+.sub-container-div-label-input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#container-produtos-checkout{
+    overflow-y: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+#celula-checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+@media (max-width: 900px){
+    form {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    form > section {
+        max-width: 500px;
+        width: 100%;
+    }
+}

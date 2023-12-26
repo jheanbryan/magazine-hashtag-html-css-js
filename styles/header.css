@@ -1,0 +1,24 @@
+header{
+    background-color: #E44D26;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-logo{
+    max-width: 200px;
+}
+.container-logo img{
+    width: 100%;
+}
+.itens-menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.icon{
+    width: 1.2em;
+    cursor: pointer;
+}
